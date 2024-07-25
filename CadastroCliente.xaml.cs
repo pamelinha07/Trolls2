@@ -16,7 +16,7 @@ namespace CadastroCliente
         }
 
         private void OnProximoClicked(object sender, EventArgs e)
-        {
+        { 
             bool isValid = ValidateEntries();
             ErrorLabel.IsVisible = !isValid;
 
