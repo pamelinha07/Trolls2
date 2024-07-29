@@ -1,0 +1,28 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trolls2.DadosVendas"
+             BackgroundColor="{StaticResource BackgroundColor}">
+
+    <VerticalStackLayout Spacing="20">
+        <Label Text="Nome do Cliente" FontSize="Large" HorizontalTextAlignment="Center" />
+
+        <StackLayout>
+            <Label Text="*** Camisetas" />
+            <Label Text="** Rolos de Tecido" />
+            <Label Text="*** Costuradas" />
+            <Label Text="Total: ********" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Data do Pedido: 10/06/2024" />
+            <Label Text="Forma de Pagamento: Cartão de Crédito" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Data da Entrega: 20/06/2024" />
+            <Label Text="Situação: PAGO" />
+        </StackLayout>
+
+        <Button Text="Voltar" HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
