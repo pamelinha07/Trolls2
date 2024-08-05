@@ -13,7 +13,7 @@
                FontAttributes="Bold"
                HorizontalOptions="Center" VerticalOptions="Center" />
 
-        <Image Grid.Row="1" Grid.Column="1" Source="packages.png"  // Coloque a imagem apropriada no seu projeto
+        <Image Grid.Row="1" Grid.Column="1" Source="caixa.png"  
                WidthRequest="100" HeightRequest="100"
                HorizontalOptions="Center" VerticalOptions="Center" />
 

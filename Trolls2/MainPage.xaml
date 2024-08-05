@@ -6,11 +6,12 @@
     <VerticalStackLayout Spacing="20" Padding="20">
         <Label Text="SewDreams" FontSize="Large" HorizontalTextAlignment="Center" />
 
-        <Grid ColumnDefinitions="*, *, *, *" RowDefinitions="*">
-            <Button Text="Clientes" Grid.Column="0" />
-            <Button Text="Produtos" Grid.Column="1" />
-            <Button Text="Contato" Grid.Column="2" />
-            <Button Text="Vendas" Grid.Column="3" />
+        <Grid ColumnDefinitions=" *, *" RowDefinitions="*, *">
+            <Button Text="Clientes" Grid.Column="0" Grid.Row="1"/> 
+            <Button Text="Produtos" Grid.Column="1" Grid.Row="1"/>
+            <Button Text="Contato" Grid.Column="0" Grid.Row="0"/>
+            <Button Text="Vendas" Grid.Column="1" Grid.Row="0"/>
         </Grid>
+
     </VerticalStackLayout>
 </ContentPage>
