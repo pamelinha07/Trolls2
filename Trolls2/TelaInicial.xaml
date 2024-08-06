@@ -1,0 +1,18 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trolls2.TelaInicial"
+             Title="SewDreams">
+
+    <VerticalStackLayout Spacing="20" Padding="20">
+        <Label Text="SewDreams" FontSize="Large" HorizontalTextAlignment="Center" />
+
+        <Grid ColumnDefinitions="*, *, *, *" RowDefinitions="*">
+            <Button Text="Clientes" 
+                    Grid.Column="0" 
+                    Clicked="OnCLientesClicked"/>
+            <Button Text="Produtos" Grid.Column="1" />
+            <Button Text="Contato" Grid.Column="2" />
+            <Button Text="Vendas" Grid.Column="3" />
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
