@@ -4,14 +4,21 @@
              BackgroundColor="{StaticResource BackgroundColor}">
 
     <VerticalStackLayout Spacing="20">
-        <Label Text="Finalizar Pedido" FontSize="Large" HorizontalTextAlignment="Center" />
-        <Label Text="Salvar alterações?" HorizontalTextAlignment="Center" />
+        <Label Text="Finalizar Pedido"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"/>
+        <Label Text="Salvar alterações?"
+                HorizontalTextAlignment="Center"/>
         <HorizontalStackLayout Spacing="20">
-            <Button Text="Sim" />
-            <Button Text="Não" />
+            <Button Text="Sim"/>
+            <Button Text="Não"/>
         </HorizontalStackLayout>
-        <Label Text="Enviar Pedido" HorizontalTextAlignment="Center" />
-        <Button Text="Voltar" HorizontalOptions="Center" />
-        <Label Text="sewdreams.com.br" HorizontalTextAlignment="Center" FontSize="Small" />
+        <Label Text="Enviar Pedido"
+                HorizontalTextAlignment="Center"/>
+        <Button Text="Voltar"
+                HorizontalOptions="Center"/>
+        <Label Text="sewdreams.com.br"
+                HorizontalTextAlignment="Center"
+                FontSize="Small"/>
     </VerticalStackLayout>
 </ContentPage>

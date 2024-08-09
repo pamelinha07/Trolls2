@@ -4,17 +4,20 @@
              BackgroundColor="{StaticResource BackgroundColor}">
 
     <VerticalStackLayout Spacing="20">
-        <Label Text="Cadastro do Costureiro(a)" FontSize="Large" HorizontalTextAlignment="Center" />
+        <Label Text="Cadastro do Costureiro(a)"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"/>
 
-        <Label Text="Nome" />
-        <Entry Placeholder="Digite o nome do costureiro(a)" />
+        <Label Text="Nome"/>
+        <Entry Placeholder="Digite o nome do costureiro(a)"/>
 
-        <Label Text="Telefone" />
-        <Entry Placeholder="Digite o telefone" Keyboard="Telephone" />
+        <Label Text="Telefone"/>
+        <Entry Placeholder="Digite o telefone"
+                Keyboard="Telephone"/>
 
         <HorizontalStackLayout Spacing="20">
-            <Button Text="Cancelar" />
-            <Button Text="Salvar alterações" />
+            <Button Text="Cancelar"/>
+            <Button Text="Salvar alterações"/>
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

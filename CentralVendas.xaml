@@ -4,42 +4,53 @@
              BackgroundColor="{StaticResource BackgroundColor}">
 
     <VerticalStackLayout Spacing="20">
-        <Label Text="Central de Vendas" FontSize="Large" HorizontalTextAlignment="Center" />
+        <Label Text="Central de Vendas"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"/>
 
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Frame Padding="10" BorderColor="Black" BorderWidth="1" Grid.Column="0">
+            <Frame Padding="10"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    Grid.Column="0">
                 <StackLayout>
-                    <Label Text="Mês 6" />
-                    <Label Text="20/06/2024" />
-                    <Label Text="Camisetas" />
-                    <Label Text="Rolos de Tecido" />
-                    <Label Text="Costuradas" />
-                    <Label Text="Total:********" />
+                    <Label Text="Mês 6"/>
+                    <Label Text="20/06/2024"/>
+                    <Label Text="Camisetas"/>
+                    <Label Text="Rolos de Tecido"/>
+                    <Label Text="Costuradas"/>
+                    <Label Text="Total:********"/>
                 </StackLayout>
             </Frame>
 
-            <Button Text="+" Grid.Column="1" />
+            <Button Text="+"
+                    Grid.Column="1"/>
 
-            <Frame Padding="10" BorderColor="Black" BorderWidth="1" Grid.Column="2">
+            <Frame Padding="10"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    Grid.Column="2">
                 <StackLayout>
-                    <Label Text="Mês 8" />
-                    <Label Text="20/07/2024" />
-                    <Label Text="Camisetas" />
-                    <Label Text="Rolos de Tecido" />
-                    <Label Text="Costuradas" />
-                    <Label Text="Total:**********" />
+                    <Label Text="Mês 8"/>
+                    <Label Text="20/07/2024"/>
+                    <Label Text="Camisetas"/>
+                    <Label Text="Rolos de Tecido"/>
+                    <Label Text="Costuradas"/>
+                    <Label Text="Total:**********"/>
                 </StackLayout>
             </Frame>
         </Grid>
 
-        <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
-            <Button Text="Voltar" />
-            <Button Text="🗑️" /> </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="20"
+                HorizontalOptions="Center">
+            <Button Text="Voltar"/>
+            <Button Text="🗑️"/>
+        </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

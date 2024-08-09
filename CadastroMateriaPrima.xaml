@@ -4,18 +4,20 @@
              BackgroundColor="{StaticResource BackgroundColor}">
 
     <VerticalStackLayout Spacing="20">
-        <Label Text="Cadastro Matéria-Prima" FontSize="Large" HorizontalTextAlignment="Center" />
+        <Label Text="Cadastro Matéria-Prima"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"/>
 
-        <Label Text="Nome" />
-        <Entry Placeholder="Digite o nome da matéria-prima" />
+        <Label Text="Nome"/>
+        <Entry Placeholder="Digite o nome da matéria-prima"/>
 
-        <Label Text="Unidade de Medida" />
+        <Label Text="Unidade de Medida"/>
         <Picker Title="Selecione a unidade de medida">
-            </Picker>
+        </Picker>
 
         <HorizontalStackLayout Spacing="20">
-            <Button Text="Cancelar" />
-            <Button Text="Salvar alterações" />
+            <Button Text="Cancelar"/>
+            <Button Text="Salvar alterações"/>
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

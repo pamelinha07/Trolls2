@@ -3,12 +3,18 @@
              x:Class="Trolls2.Cores">
 
     <VerticalStackLayout Spacing="20">
-        <Label Text="Cores" FontSize="Large" HorizontalTextAlignment="Center" />
-        <Image Source="color_palette.png" Aspect="AspectFit" WidthRequest="200" HeightRequest="200"/>
-        <Label Text="Escolha a cor aqui" HorizontalTextAlignment="Center" />
+        <Label Text="Cores"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"/>
+        <Image Source="color_palette.png"
+                Aspect="AspectFit"
+                WidthRequest="200"
+                HeightRequest="200"/>
+        <Label Text="Escolha a cor aqui"
+                HorizontalTextAlignment="Center"/>
         <HorizontalStackLayout Spacing="20">
-            <Button Text="Voltar" />
-            <Button Text="Próximo" />
+            <Button Text="Voltar"/>
+            <Button Text="Próximo"/>
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

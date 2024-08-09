@@ -5,15 +5,36 @@
              Title="Estampas">
 
     <VerticalStackLayout Spacing="0">
-        <Label Text="Estampas" FontSize="Medium" HorizontalTextAlignment="Center" Padding="20"/>
+        <Label Text="Estampas"
+                FontSize="Medium"
+                HorizontalTextAlignment="Center"
+                Padding="20"/>
 
-        <Button Text="Desenhos" BackgroundColor="#6C757D" TextColor="White" CornerRadius="0"/>
-        <Button Text="Figuras" BackgroundColor="#6C757D" TextColor="White" CornerRadius="0"/>
-        <Button Text="Personalizar" BackgroundColor="#6C757D" TextColor="White" CornerRadius="0"/>
+        <Button Text="Desenhos"
+                BackgroundColor="#6C757D"
+                TextColor="White"
+                CornerRadius="0"/>
+        <Button Text="Figuras"
+                BackgroundColor="#6C757D"
+                TextColor="White"
+                CornerRadius="0"/>
+        <Button Text="Personalizar"
+                BackgroundColor="#6C757D"
+                TextColor="White"
+                CornerRadius="0"/>
 
-        <Grid ColumnDefinitions="*, *" Padding="20">
-            <Button Text="Voltar" Grid.Column="0" BackgroundColor="#6C757D" TextColor="White" CornerRadius="0"/>
-            <Button Text="Próximo" Grid.Column="1" BackgroundColor="#6C757D" TextColor="White" CornerRadius="0"/>
+        <Grid ColumnDefinitions="*, *"
+                Padding="20">
+            <Button Text="Voltar"
+                    Grid.Column="0"
+                    BackgroundColor="#6C757D"
+                    TextColor="White"
+                    CornerRadius="0"/>
+            <Button Text="Próximo"
+                    Grid.Column="1"
+                    BackgroundColor="#6C757D"
+                    TextColor="White"
+                    CornerRadius="0"/>
         </Grid>
     </VerticalStackLayout>
 </ContentPage>

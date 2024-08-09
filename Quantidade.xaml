@@ -5,26 +5,42 @@
              BackgroundColor="#B0C4DE"
              Title="Quantidade">
 
-    <Grid RowDefinitions="*, *, *, *"
-          ColumnDefinitions="*, *, *"
-          Padding="20">
-        
-        <Label Grid.Row="0" Grid.Column="1" Text="Quantidade"
-               FontAttributes="Bold"
-               HorizontalOptions="Center" VerticalOptions="Center" />
+       <Grid RowDefinitions="*, *, *, *"
+             ColumnDefinitions="*, *, *"
+             Padding="20">
 
-        <Image Grid.Row="1" Grid.Column="1" Source="caixa.png"  
-               WidthRequest="100" HeightRequest="100"
-               HorizontalOptions="Center" VerticalOptions="Center" />
+              <Label Grid.Row="0"
+                            Grid.Column="1"
+                            Text="Quantidade"
+                     FontAttributes="Bold"
+                     HorizontalOptions="Center"
+                            VerticalOptions="Center"/>
 
-        <Entry Grid.Row="2" Grid.Column="1" Placeholder="Digite aqui a quantidade de peças"
-               HorizontalOptions="Center" VerticalOptions="Center" />
-        
-        <Button Grid.Row="3" Grid.Column="0" Text="Voltar"
-                HorizontalOptions="Center" VerticalOptions="Center"
-                Clicked="OnVoltarButtonClicked"/>
-        <Button Grid.Row="3" Grid.Column="2" Text="Próximo"
-                HorizontalOptions="Center" VerticalOptions="Center"
-                Clicked="OnProximoButtonClicked"/>
-    </Grid>
+              <Image Grid.Row="1"
+                            Grid.Column="1"
+                            Source="caixa.png"
+                     WidthRequest="100"
+                            HeightRequest="100"
+                     HorizontalOptions="Center"
+                            VerticalOptions="Center"/>
+
+              <Entry Grid.Row="2"
+                            Grid.Column="1"
+                            Placeholder="Digite aqui a quantidade de peças"
+                     HorizontalOptions="Center"
+                            VerticalOptions="Center"/>
+
+              <Button Grid.Row="3"
+                            Grid.Column="0"
+                            Text="Voltar"
+                      HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                      Clicked="OnVoltarButtonClicked"/>
+              <Button Grid.Row="3"
+                            Grid.Column="2"
+                            Text="Próximo"
+                      HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                      Clicked="OnProximoButtonClicked"/>
+       </Grid>
 </ContentPage>
