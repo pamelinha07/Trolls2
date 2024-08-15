@@ -19,7 +19,7 @@ public class Acabamentista
      return Nome;
     }
 
-    public string Telefone () {
+    public string GetTelefone () {
         return Telefone;
     }
 

@@ -11,16 +11,27 @@ public partial class CentralVendas : ContentPage
 
     private void OnVoltarButtonClicked(object sender, EventArgs e)
     {
-        // Implement logic for the "Voltar" button
+        VoltarButton.Clicked += OnVoltarButtonClicked; OnVoltarButtonClicked(sender,) {
+            VoltarButtonCliked.Enabled = true;
+        }
+        
     }
 
     private void OnPlusButtonClicked(object sender, EventArgs e)
     {
-        // Implement logic for the "+" button
+         PlusButton.Clicked += OnPlusButtonClicked; OnPlusButtonClicked(sender,) {
+            PlusButtonClicked.Enabled = true;
+         }
+        
     }
 
     private void OnTrashButtonClicked(object sender, EventArgs e)
     {
-        // Implement logic for the "trash" button
+      TrashButton.Clicked += OnTrashButtonClicked; OnTrashButtonClicked(sender,) {
+        TrashButtonCliked.Disabled = true;
+      }
+
+    
+       
     }
 }

@@ -10,11 +10,13 @@ public partial class Cores : ContentPage
 
     private void OnVoltarButtonClicked(object sender, EventArgs e)
     {
+        VoltarButton.Clicked += OnVoltarButtonClicked;
         // Implement logic for the "Voltar" button
     }
 
     private void OnProximoButtonClicked(object sender, EventArgs e)
     {
+         ProximoButton.Clicked += OnProximoButtonClicked;
         // Implement logic for the "Próximo" button
     }
 }

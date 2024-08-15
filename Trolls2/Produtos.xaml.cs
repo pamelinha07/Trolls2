@@ -12,11 +12,13 @@ namespace Produtos
 
         private void OnVoltarClicked(object sender, EventArgs e)
         {
+             VoltarButton.Clicked += OnVoltarButtonClicked;
             // Lógica para voltar
         }
 
         private void OnProximoClicked(object sender, EventArgs e)
         {
+             ProximoButton.Clicked += OnProximoButtonClicked;
             // Lógica para próximo
         }
     }

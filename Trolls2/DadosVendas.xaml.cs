@@ -9,6 +9,7 @@ public partial class DadosVendas : ContentPage
 
     private void OnVoltarButtonClicked(object sender, EventArgs e)
     {
+         VoltarButton.Clicked += OnVoltarButtonClicked;
         // Implement logic for the "Voltar" button
     }
 }
