@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Maui.Controls;
 
-namespace CadastroCliente
+namespace Trolls2
 {
     public partial class CadastroCliente : ContentPage
     {

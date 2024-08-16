@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Maui.Controls;
 
-namespace Contato
+namespace Trolls2
 {
     public partial class Contato: ContentPage
     {
@@ -12,13 +12,13 @@ namespace Contato
 
         private void OnVoltarClicked(object sender, EventArgs e)
         {
-             VoltarButton.Clicked += OnVoltarButtonClicked;
+             VoltarButtonClicked = OnVoltarButtonClicked;
             // Lógica para voltar
         }
 
         private void OnProximoClicked(object sender, EventArgs e)
         {
-             ProximoButton.Clicked += OnProximoButtonClicked;
+             ProximoButtonClicked = OnProximoButtonClicked;
         
             // Lógica para próximo
         }

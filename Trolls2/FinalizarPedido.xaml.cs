@@ -1,3 +1,4 @@
+namespace Trolls2;
 public partial class FinalizarPedido : ContentPage
 {
     public FinalizarPedido()
@@ -11,19 +12,19 @@ public partial class FinalizarPedido : ContentPage
 
     private void OnSimButtonClicked(object sender, EventArgs e)
     {
-        SimButton.Clicked += OnSimButtonClicked;
+        SimButtonClicked = OnSimButtonClicked;
         // Implement logic for the "Sim" button
     }
 
     private void OnNaoButtonClicked(object sender, EventArgs e)
     {
-        NaoButton.Clicked += OnNaoButtonClicked;
+        NaoButtonClicked = OnNaoButtonClicked;
         // Implement logic for the "Não" button
     }
 
     private void OnVoltarButtonClicked(object sender, EventArgs e)
     {
-         VoltarButton.Clicked += OnVoltarButtonClicked;
+         VoltarButtonClicked = OnVoltarButtonClicked;
         // Implement logic for the "Voltar" button
     }
 }

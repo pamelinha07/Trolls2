@@ -52,7 +52,7 @@ public class Produtos
     string PersonalizarLogo;
 
     public void SetPersonalizarLogo (string PersonalizarLogo) {
-        this.PersonalizarLogo = PersonalizarLogo
+        this.PersonalizarLogo = PersonalizarLogo;
     }
 
     public string GetPersonalizarLogo () {

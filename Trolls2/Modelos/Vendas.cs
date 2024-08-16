@@ -12,7 +12,7 @@ public class Vendas
         }        
         string Rolos;
 
-        public void SetRolos (String Rolos) {
+        public void SetRolos (string Rolos) {
                 this.Rolos = Rolos;
         }
 
@@ -21,11 +21,11 @@ public class Vendas
         }
         string Costuradas;
         
-        public void SetCosturadas (String Costuradas) {
+        public void SetCosturadas (string Costuradas) {
                 this.Costuradas = Costuradas;
         }
 
-        public String GetCosturadas() {
+        public string GetCosturadas() {
                 return this.Costuradas;
         }
 
