@@ -13,8 +13,11 @@
         <Entry Placeholder="Digite o telefone" Keyboard="Telephone" />
 
         <HorizontalStackLayout Spacing="20">
-            <Button Text="Cancelar" />
-            <Button Text="Salvar alterações" />
+            <Button Text="Cancelar" 
+            Clicked="OnCancelarButtonClicked"/>
+
+            <Button Text="Salvar alterações"
+            Clicked="OnSalvarAlteracoesButtonClicked" />
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

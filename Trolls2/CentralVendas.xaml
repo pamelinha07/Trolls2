@@ -39,7 +39,8 @@
         </Grid>
 
         <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
-            <Button Text="Voltar" />
+            <Button Text="Voltar" 
+            Clicked="OnVoltarButtonClicked"/>
             <Button Text="🗑️" /> </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

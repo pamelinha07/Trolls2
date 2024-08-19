@@ -11,13 +11,13 @@ public partial class CadastroAcabamentista : ContentPage
 
     private void OnCancelarButtonClicked(object sender, EventArgs e)
     {
-         CancelarButtonClicked += OnCancelarButtonClicked;
+         CancelarButtonClicked = OnCancelarButtonClicked;
         // Implement logic for the "Cancelar" button
     }
 
     private void OnSalvarAlteracoesButtonClicked(object sender, EventArgs e)
     {
-         SalvarAlteracoesButtonClicked += OnSalvarAlteracoesButtonClicked;
+         SalvarAlteracoesButtonClicked = OnSalvarAlteracoesButtonClicked;
         // Implement logic for the "Salvar alterações" button
     }
 }

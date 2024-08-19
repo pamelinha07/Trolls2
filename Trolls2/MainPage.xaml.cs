@@ -8,10 +8,6 @@ public partial class MainPage : ContentPage
     {
         InitializeComponent();
 
-        Setting an image source; 
-        Image image = new Image { Source = "scissors_and_thread.png"};
-        Content.ChildrenReordered.Insert(1,image);
-
         // Example: Setting an image source
         // Image image = new Image { Source = "scissors_and_thread.png" };
         // Content.Children.Insert(1, image);
