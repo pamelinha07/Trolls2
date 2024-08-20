@@ -4,7 +4,7 @@ public class Vendas
 {
         string Camisetas;
 
-        public void (string Camisetas) {
+        public void SetCamisetas (string Camisetas) {
         this.Camisetas = Camisetas;
         }
         public string GetCamisetas() {
@@ -16,7 +16,7 @@ public class Vendas
                 this.Rolos = Rolos;
         }
 
-        public string SetRolos() {
+        public string GetRolos() {
          return this.Rolos;
         }
         string Costuradas;

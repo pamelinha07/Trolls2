@@ -1,7 +1,7 @@
 using LiteDB;
 using Trolls2.Modelos;
 
-namespace Controles;
+namespace Trolls2;
 
 public class BaseControle
 {
@@ -34,7 +34,7 @@ public class BaseControle
   
   //----------------------------------------------------------------------------
 
-  public virtual Registro? Ler(int id)
+  public virtual Registro Ler(int id)
   {
     return null;
   }

@@ -1,6 +1,6 @@
 namespace Trolls2;
 
-public class Produtos
+public class Produto
 {
     string Modelos;
      public void SetModelos (string Modelos) {
