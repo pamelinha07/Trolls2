@@ -1,23 +1,36 @@
     <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trolls2.CadastroAcabamentista"
-             BackgroundColor="{StaticResource BackgroundColor}">
+             BackgroundColor="#8fc1c2"
+             Shell.NavBarIsVisible="False">
 
     <VerticalStackLayout Spacing="20">
-        <Label Text="Cadastro da(o) Acabamentista" FontSize="Large" HorizontalTextAlignment="Center" />
+        <Label Text="Cadastro da(o) Acabamentista" 
+               FontSize="Large" 
+               HorizontalTextAlignment="Center"
+               Margin="30, 20" />
 
-        <Label Text="Nome" />
-        <Entry Placeholder="Digite o nome do acabamentista" />
+        <Label Text="Nome:"
+               Margin="20, 50, 20, 5"/>
 
-        <Label Text="Telefone" />
-        <Entry Placeholder="Digite o telefone" Keyboard="Telephone" />
+        <Entry Placeholder="Digite o nome do acabamentista" 
+               TextColor="Black"
+               Margin="20, 0, 20, 5"/>
 
+        <Label Text="Telefone:"
+               Margin="20, 10, 20, 5"/>
+        <Entry Placeholder="Digite o telefone" 
+               TextColor="Black" 
+               Keyboard="Telephone"
+               Margin="20, 0, 20, 50"/>
         <HorizontalStackLayout Spacing="20">
             <Button Text="Cancelar" 
-            Clicked="OnCancelarButtonClicked"/>
+                    Clicked="OnCancelarButtonClicked"
+                    Margin="400, 10, 10, 10"/>
 
             <Button Text="Salvar alterações"
-            Clicked="OnSalvarAlteracoesButtonClicked" />
+                    Clicked="OnSalvarAlteracoesButtonClicked"
+                    Margin="10, 10, 400, 10"     />
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

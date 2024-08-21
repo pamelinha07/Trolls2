@@ -1,7 +1,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trolls2.CadastroMateriaPrima"
-             BackgroundColor="{StaticResource BackgroundColor}">
+             BackgroundColor="Blue">
 
     <VerticalStackLayout Spacing="20">
         <Label Text="Cadastro Matéria-Prima" FontSize="Large" HorizontalTextAlignment="Center" />
@@ -14,8 +14,10 @@
             </Picker>
 
         <HorizontalStackLayout Spacing="20">
-            <Button Text="Cancelar" />
-            <Button Text="Salvar alterações" />
+            <Button Text="Cancelar" 
+            Clicked="OnCancelarButtonClicked"/>
+            <Button Text="Salvar alterações" 
+            Clicked="OnSalvarAlteracoesButtonClicked"/>
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

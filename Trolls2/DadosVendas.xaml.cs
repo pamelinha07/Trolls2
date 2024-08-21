@@ -5,12 +5,10 @@ public partial class DadosVendas : ContentPage
     {
         InitializeComponent();
 
-        VoltarButtonClicked += OnVoltarButtonClicked;
     }
 
     private void OnVoltarButtonClicked(object sender, EventArgs e)
     {
-         VoltarButtonClicked = OnVoltarButtonClicked;
         // Implement logic for the "Voltar" button
     }
 }

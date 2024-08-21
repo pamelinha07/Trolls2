@@ -6,10 +6,12 @@
     <VerticalStackLayout Spacing="0">
         <Label Text="Página de Desenhos" FontSize="Medium" HorizontalTextAlignment="Center" Padding="20"/>
 
-        <Grid RowDefinitions="Auto, *" Padding="20">
-            <RowDefinition Height="Auto"/> 
-            <RowDefinition Height="*"/>
-
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/> 
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
             <Grid Row="0" ColumnDefinitions="*, *">
                 <Image Source="paint_bucket.png" Grid.Column="0"/>
                 <Image Source="pencil.png" Grid.Column="1"/>
