@@ -15,4 +15,9 @@ public partial class CadastroCostureiro : ContentPage
     {
         // Implement logic for the "Salvar alterações" button
     }
+
+    void VoltarClicked(object sender, EventArgs e)
+    {
+        Application.Current.MainPage = new MainPage();
+    }
 }

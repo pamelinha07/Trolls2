@@ -5,25 +5,34 @@
              BackgroundColor="#B0C4DE"
              Title="Quantidade">
 
-    <Grid RowDefinitions="*, *, *, *"
-          ColumnDefinitions="*, *, *"
-          Padding="20">
+    <Grid>
+          <Grid.RowDefinitions>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
         
-        <Label Grid.Row="0" Grid.Column="1" Text="Quantidade"
+        <Label Grid.Row="0" Grid.Column="0" Text="Quantidade"
                FontAttributes="Bold"
                HorizontalOptions="Center" VerticalOptions="Center" />
 
-        <Image Grid.Row="1" Grid.Column="1" Source="caixa.png"  
+        <Image Grid.Row="1" Grid.Column="0" Source="caixa.png"  
                WidthRequest="100" HeightRequest="100"
                HorizontalOptions="Center" VerticalOptions="Center" />
 
-        <Entry Grid.Row="2" Grid.Column="1" Placeholder="Digite aqui a quantidade de peças"
+        <Entry Grid.Row="2" Grid.Column="0" Placeholder="Digite aqui a quantidade de peças"
                HorizontalOptions="Center" VerticalOptions="Center" />
         
-        <Button Grid.Row="3" Grid.Column="0" Text="Voltar"
+        <Button Grid.Row="3" Grid.Column="1" Text="Voltar"
                 HorizontalOptions="Center" VerticalOptions="Center"
                 Clicked="OnVoltarButtonClicked"/>
-        <Button Grid.Row="3" Grid.Column="2" Text="Próximo"
+        <Button Grid.Row="3" Grid.Column="1" Text="Próximo"
                 HorizontalOptions="Center" VerticalOptions="Center"
                 Clicked="OnProximoButtonClicked"/>
     </Grid>

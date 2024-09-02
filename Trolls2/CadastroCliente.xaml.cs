@@ -12,7 +12,7 @@ namespace Trolls2
 
         private void OnVoltarClicked(object sender, EventArgs e)
         {
-            // Lógica para voltar
+            Application.Current.MainPage = new MainPage();
         }
 
         private void OnProximoClicked(object sender, EventArgs e)

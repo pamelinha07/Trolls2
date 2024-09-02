@@ -9,6 +9,6 @@ public partial class DadosVendas : ContentPage
 
     private void OnVoltarButtonClicked(object sender, EventArgs e)
     {
-        // Implement logic for the "Voltar" button
+        Application.Current.MainPage = new MainPage();
     }
 }

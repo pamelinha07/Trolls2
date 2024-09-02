@@ -7,10 +7,24 @@
         <Label Text="SewDreams" FontSize="Large" HorizontalTextAlignment="Center" />
 
         <Grid ColumnDefinitions=" *, *" RowDefinitions="*, *">
-            <Button Text="Clientes" Grid.Column="0" Grid.Row="1"/> 
-            <Button Text="Produtos" Grid.Column="1" Grid.Row="1"/>
-            <Button Text="Contato" Grid.Column="0" Grid.Row="0"/>
-            <Button Text="Vendas" Grid.Column="1" Grid.Row="0"/>
+            <Button Text="Clientes" 
+                    Grid.Column="0" 
+                    Grid.Row="1"
+                    Clicked="ClientesClicked"/> 
+
+            <Button Text="Produtos" 
+                    Grid.Column="1" 
+                    Grid.Row="1"
+                    Clicked="ProdutosClicked"/>
+
+            
+
+            <Button Text="Vendas" 
+                    Grid.Column="1" 
+                    Grid.Row="0"
+                    Clicked="VendasClicked"/>
+            
+
         </Grid>
 
     </VerticalStackLayout>

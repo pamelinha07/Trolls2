@@ -10,7 +10,7 @@
         HorizontalTextAlignment="Center" />
 
         <Label Text="Nome:" 
-        Margin="20, 50, 20, 5"/>
+               Margin="20, 50, 20, 5"/>
         <Entry Placeholder="Digite o nome do costureiro(a)" />
 
         <Label Text="Telefone" />
@@ -21,6 +21,9 @@
             Clicked="OnCancelarButtonClicked"/>
             <Button Text="Salvar alterações" 
             Clicked="OnSalvarAlteracoesButtonClicked"/>
+
+            <Button Clicked="VoltarClicked"
+                    Text="Voltar"/>
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
